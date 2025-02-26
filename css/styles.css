@@ -602,15 +602,23 @@ progress {
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 80px;
+  margin-left: 91px;
 }
 
 .img-fluid2 {
   max-width: 200px;
   height: auto;
-  margin-left: 280px;
+  margin-left: 291px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.img-fluid3 {
+  max-width: 80%; /* Adjust to full width on mobile */
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
 }
 
 @media (max-width: 768px) {
@@ -622,6 +630,36 @@ progress {
   }
 
   .img-fluid2 {
+    max-width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+
+  .img-fluid3 {
+    max-width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 1025px) {
+  .img-fluid1 {
+    max-width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+
+  .img-fluid2 {
+    max-width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+
+  .img-fluid3 {
     max-width: 80% !important;
     margin-left: auto !important;
     margin-right: auto !important;
